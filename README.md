@@ -240,7 +240,11 @@ VITE_API_URL=http://localhost:5000/api
 - Audit Logs
 
 
-
+Screens
  
+<img width="1917" height="968" alt="Image" src="https://github.com/user-attachments/assets/027307a5-a90f-4e86-8a4e-168415690963" />
 
+<img width="1917" height="982" alt="Image" src="https://github.com/user-attachments/assets/a15eeb66-3971-4030-84b2-f9982d919cb5" />
+
+<img width="1918" height="977" alt="Image" src="https://github.com/user-attachments/assets/65531616-0213-49e8-8d0a-e47b841459b0" />
 

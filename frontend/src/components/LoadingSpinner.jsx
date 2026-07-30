@@ -1,4 +1,4 @@
-import "./loadingSpinner.css";
+import "./LoadingSpinner.css";
 const LoadingSpinner = ({ message = "Loading..." }) => {
   return (
     <div className="loading-container">

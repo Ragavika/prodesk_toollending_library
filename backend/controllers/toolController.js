@@ -1,4 +1,4 @@
-import Tool from "../models/tool.js";
+import Tool from "../models/Tool.js";
 import xss from "xss";
 import logAnalytics from "../utils/analytics.js";
 

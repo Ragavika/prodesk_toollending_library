@@ -1,0 +1,223 @@
+/* ===========================
+   Tool Details Page
+=========================== */
+
+.tool-details-page {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* ===========================
+   Card
+=========================== */
+
+.tool-details-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  padding: 35px;
+}
+
+/* ===========================
+   Header
+=========================== */
+
+.tool-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.tool-details-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.tool-details-subtitle {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #6b7280;
+}
+
+/* ===========================
+   Details Grid
+=========================== */
+
+.tool-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+/* ===========================
+   Detail Item
+=========================== */
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.detail-value {
+  font-size: 17px;
+  color: #111827;
+  font-weight: 500;
+}
+
+/* ===========================
+   Description
+=========================== */
+
+.tool-description {
+  margin-top: 10px;
+  padding: 18px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.tool-description p {
+  color: #374151;
+  line-height: 1.7;
+}
+
+/* ===========================
+   Status Badge
+=========================== */
+
+.status-badge {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.status-available {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-borrowed {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-maintenance {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* ===========================
+   Condition Badge
+=========================== */
+
+.condition-badge {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ===========================
+   Footer Buttons
+=========================== */
+
+.tool-details-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.back-btn {
+  background: #ffffff;
+  color: #111827;
+  border: 1px solid #d1d5db;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #f3f4f6;
+}
+
+.edit-btn {
+  background: #111827;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.edit-btn:hover {
+  background: #000000;
+}
+
+/* ===========================
+   Loading & Error
+=========================== */
+
+.loading-text,
+.error-text {
+  text-align: center;
+  font-size: 18px;
+  color: #6b7280;
+  margin-top: 60px;
+}
+
+.error-text {
+  color: #dc2626;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width: 768px) {
+
+  .tool-details-card {
+    padding: 25px;
+  }
+
+  .tool-details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-details-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .tool-details-actions {
+    flex-direction: column;
+  }
+
+  .back-btn,
+  .edit-btn {
+    width: 100%;
+  }
+
+}

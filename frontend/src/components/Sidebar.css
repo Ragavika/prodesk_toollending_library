@@ -1,0 +1,154 @@
+/* ===========================
+   Sidebar Container
+=========================== */
+
+.sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #111827;
+  color: #ffffff;
+}
+
+/* ===========================
+   Logo
+=========================== */
+
+.sidebar-logo {
+  padding: 28px 24px;
+  border-bottom: 1px solid #374151;
+}
+
+.sidebar-logo h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sidebar-logo p {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+/* ===========================
+   Navigation
+=========================== */
+
+.sidebar-nav {
+  flex: 1;
+  padding: 25px 15px;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+}
+
+.sidebar-nav li {
+  margin-bottom: 10px;
+}
+
+/* ===========================
+   Navigation Links
+=========================== */
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  width: 100%;
+
+  padding: 14px 18px;
+
+  color: #d1d5db;
+  text-decoration: none;
+
+  border-radius: 12px;
+
+  transition: all 0.3s ease;
+}
+
+.sidebar-link:hover {
+  background: #1f2937;
+  color: #ffffff;
+  transform: translateX(5px);
+}
+
+/* Active Link */
+
+.sidebar-link.active {
+  background: #374151;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* ===========================
+   Icons
+=========================== */
+
+.sidebar-icon {
+  font-size: 20px;
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+.sidebar-footer {
+  padding: 20px;
+  border-top: 1px solid #374151;
+}
+
+.sidebar-footer button {
+  width: 100%;
+
+  padding: 12px;
+
+  background: #ef4444;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 10px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.sidebar-footer button:hover {
+  background: #dc2626;
+}
+
+/* ===========================
+   Scrollbar
+=========================== */
+
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 10px;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width: 768px) {
+  .sidebar-logo {
+    padding: 22px 18px;
+  }
+
+  .sidebar-link {
+    padding: 12px 15px;
+    font-size: 15px;
+  }
+
+  .sidebar-icon {
+    font-size: 18px;
+  }
+}
